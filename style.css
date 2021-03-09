@@ -1,3 +1,38 @@
+body {
+    font-family: Arial;
+    background: url(images/mapofEurope.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header, main, footer {
+    background-color: honeydew;
+    padding: 25px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .row {
     display: flex;
 }
@@ -9,7 +44,7 @@
 
 #menu-outer {
 	height: 84px;
-	background: url(images/bar-bg.jpg) repeat-x;
+	background-color: honeydew;
 }
 
 .table {
@@ -25,3 +60,4 @@ ul#horizontal-list {
 	ul#horizontal-list li {
 		display: inline;
 	}
+
